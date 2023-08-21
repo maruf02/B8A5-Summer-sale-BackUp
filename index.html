@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="icon" type="image/x-icon" href="images/Summer 1.png">
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Work+Sans:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet" />
+  <style>
+    .font-sanss {
+      font-family: 'Lato', sans-serif;
+      font-family: 'Work Sans', sans-serif;
+    }
+  </style>
+  <title>Summer Sale</title>
+</head>
+
+<body class="bg-white h-fit">
+  <!-- Banner section start -->
+  <header class="bg-[#F9F6E2] w-full h-fit lg:h-[873px] ">
+    <section class="grid mx-auto lg:grid-cols-2 lg:mx-60">
+      <!-- Banner Left Portion -->
+      <section>
+        <h3 class="text-black font-sanss text-lg lg:text-3xl font-medium pt-10 md:pt-10 lg:pt-64 text-center">---SALE
+          FEVER---
+        </h3>
+        <h1 class="text-black font-sanss text-center text-4xl mx-auto lg:text-6xl font-bold pt-11 lg:pl-10">Purchase TK
+          200 or
+          above & get
+          <span class="text-[#E527B2] ">20% off</span>
+        </h1>
+        <section class="flex mt-10">
+          <p class="text-black font-sanss text-2xl font-medium ml-8 md:ml-36 lg:ml-40  pt-4 pr-4 ">Use Promo Code</p>
+          <button
+            class="bg-[#E527B2] rounded-lg text-white px-6 py-4 font-sanss text-2xl font-semibold">SELL200</button>
+        </section>
+      </section>
+      <!-- Banner Right portion -->
+      <section class="pt-28">
+        <img src="images/Summer 1.png" alt="" class=" mx-auto md: h-3/4 md:mx-auto">
+      </section>
+    </section>
+  </header>
+  <!-- Banner section Ends -->
+  <!-- ************************************************************ -->
+  <!-- main Section Start -->
+  <main class="grid  mx-auto mt-10 lg:mt-32 lg:flex gap-6 lg:mx-60">
+    <!-- main section left side start -->
+
+    <!-- Kitchenware section start -->
+    <section class="bg-white mx-auto ">
+      <h1 class="text-black font-sanss text-4xl font-semibold mb-8 text-center lg:text-left">Kitchenware</h1>
+      <!-- cart section start -->
+      <section class="grid grid-cols-1 md:grid-cols-3  lg:grid-cols-3 gap-6 ">
+        <!-- card 1 start -->
+        <div id="card-1" class="card w-80 bg-white shadow-xl md:w-60 lg:w-80">
+          <figure class="bg-gray-200 rounded-lg mx-auto w-72 h-52 px-10 pt-10 md:w-56 lg:w-72">
+            <img src="images/prod1.png" alt="prod1" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <div class="rating ">
+              <input type="radio " name="rating-1" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-1" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-1" class="mask mask-star bg-[#FFC107]" checked />
+              <input type="radio" name="rating-1" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-1" class="mask mask-star bg-[#FFC107]" />
+            </div>
+            <h2 id="card-1-title" class="card-title text-black font-sanss text-xl font-semibold">K. Accessories</h2>
+            <p class="text-gray-400 font-sanss text-xl font-normal"><span id="card1Price">39.00</span> TK</p>
+          </div>
+        </div>
+        <!-- card 1 Ends -->
+
+        <!-- card 2 start -->
+        <div id="card-2" class="card w-80 bg-white shadow-xl md:w-60 lg:w-80">
+          <figure class="bg-gray-200 rounded-lg mx-auto w-72 h-52 px-10 pt-10 md:w-56 lg:w-72">
+            <img src="images/prod2.png" alt="prod2" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <div class="rating ">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z"
+                  stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z"
+                  stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z"
+                  stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z"
+                  stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path
+                  d="M11.4797 3.49897C11.522 3.3958 11.594 3.30755 11.6866 3.24543C11.7792 3.18331 11.8882 3.15015 11.9997 3.15015C12.1112 3.15015 12.2201 3.18331 12.3127 3.24543C12.4053 3.30755 12.4774 3.3958 12.5197 3.49897L14.6447 8.60997C14.6844 8.70561 14.7498 8.78841 14.8336 8.84928C14.9174 8.91015 15.0164 8.94672 15.1197 8.95497L20.6377 9.39697C21.1367 9.43697 21.3387 10.06 20.9587 10.385L16.7547 13.987C16.6761 14.0542 16.6176 14.1417 16.5855 14.2399C16.5534 14.3382 16.5489 14.4434 16.5727 14.544L17.8577 19.929C17.8835 20.037 17.8767 20.1503 17.8382 20.2545C17.7997 20.3587 17.7312 20.4491 17.6413 20.5144C17.5514 20.5797 17.4442 20.6168 17.3332 20.6212C17.2222 20.6256 17.1124 20.597 17.0177 20.539L12.2927 17.654C12.2044 17.6002 12.103 17.5717 11.9997 17.5717C11.8963 17.5717 11.7949 17.6002 11.7067 17.654L6.98166 20.54C6.88692 20.598 6.77712 20.6266 6.66612 20.6222C6.55512 20.6178 6.44791 20.5807 6.35803 20.5154C6.26815 20.4501 6.19962 20.3597 6.16111 20.2555C6.1226 20.1513 6.11584 20.038 6.14166 19.93L7.42666 14.544C7.45049 14.4434 7.44611 14.3381 7.414 14.2399C7.38189 14.1416 7.3233 14.0541 7.24466 13.987L3.04066 10.385C2.95648 10.3126 2.89557 10.2169 2.86561 10.11C2.83565 10.0031 2.83797 9.88971 2.87228 9.78412C2.90659 9.67852 2.97135 9.58543 3.05843 9.51654C3.1455 9.44766 3.25101 9.40606 3.36166 9.39697L8.87966 8.95497C8.98291 8.94672 9.08188 8.91015 9.16569 8.84928C9.2495 8.78841 9.31488 8.70561 9.35466 8.60997L11.4797 3.49897Z"
+                  stroke="#FFC107" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+
+            </div>
+            <h2 id="card-2-title" class="card-title text-black font-sanss text-xl font-semibold">K. Accessories</h2>
+            <p class="text-gray-400 font-sanss text-xl font-normal"><span id="card2Price">25.00</span> TK</p>
+          </div>
+        </div>
+        <!-- card 2 Ends -->
+
+
+        <!-- card 3 start -->
+        <div id="card-3" class="card w-80 bg-white shadow-xl md:w-60 lg:w-80">
+          <figure class="bg-gray-200 rounded-lg mx-auto w-72 h-52 px-10 pt-10 md:w-56 lg:w-72">
+            <img src="images/prod3.png" alt="prod3" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <div class="rating ">
+              <input type="radio " name="rating-3" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-3" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-3" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-3" class="mask mask-star bg-[#FFC107]" checked />
+              <input type="radio" name="rating-3" class="mask mask-star bg-[#FFC107]" />
+            </div>
+            <h2 id="card-3-title" class="card-title text-black font-sanss text-xl font-semibold">Home Cooker</h2>
+            <p class="text-gray-400 font-sanss text-xl font-normal"><span id="card3Price">49.00</span> TK</p>
+          </div>
+        </div>
+        <!-- card 3 Ends -->
+      </section>
+      <!-- cart section ends -->
+      <!-- Kitchenware section Ends -->
+
+      <!-- ********************************************************* -->
+      <!-- Sportswear section Start -->
+      <h1 class="text-black font-sanss text-4xl font-semibold mb-8 mt-14 text-center lg:text-left">Sportswear</h1>
+      <!-- cart section start -->
+      <section class="grid grid-cols-1 md:grid-cols-3  lg:grid-cols-3 gap-6 ">
+        <!-- card 4 start -->
+        <div id="card-4" class="card w-80 bg-white shadow-xl md:w-60 lg:w-80">
+          <figure class="bg-gray-200 rounded-lg mx-auto w-72 h-52 px-10 pt-10 md:w-56 lg:w-72">
+            <img src="images/prod4.png" alt="prod4" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <div class="rating ">
+              <input type="radio " name="rating-4" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-4" class="mask mask-star bg-[#FFC107]" checked />
+              <input type="radio" name="rating-4" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-4" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-4" class="mask mask-star bg-[#FFC107]" />
+            </div>
+            <h2 id="card-4-title" class="card-title text-black font-sanss text-xl font-semibold">Sports Back Cap</h2>
+            <p class="text-gray-400 font-sanss text-xl font-normal"><span id="card4Price">49.00</span> TK</p>
+          </div>
+        </div>
+        <!-- card 4 Ends -->
+
+        <!-- card 5 start -->
+        <div id="card-5" class="card w-80 bg-white shadow-xl md:w-60 lg:w-80">
+          <figure class="bg-gray-200 rounded-lg mx-auto w-72 h-52 px-10 pt-10 md:w-56 lg:w-72">
+            <img src="images/prod5.png" alt="prod5" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <div class="rating ">
+              <input type="radio " name="rating-5" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-5" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-5" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-5" class="mask mask-star bg-[#FFC107]" checked />
+              <input type="radio" name="rating-5" class="mask mask-star bg-[#FFC107]" />
+            </div>
+            <h2 id="card-5-title" class="card-title text-black font-sanss text-xl font-semibold">Full Jersey Set</h2>
+            <p class="text-gray-400 font-sanss text-xl font-normal"><span id="card5Price">69.00</span> TK</p>
+          </div>
+        </div>
+        <!-- card 5 Ends -->
+
+
+        <!-- card 6 start -->
+        <div id="card-6" class="card w-80 bg-white shadow-xl md:w-60 lg:w-80">
+          <figure class="bg-gray-200 rounded-lg mx-auto w-72 h-52 px-10 pt-10 md:w-56 lg:w-72">
+            <img src="images/prod6.png" alt="prod6" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <div class="rating ">
+              <input type="radio " name="rating-6" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-6" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-6" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-6" class="mask mask-star bg-[#FFC107]" checked />
+              <input type="radio" name="rating-6" class="mask mask-star bg-[#FFC107]" />
+            </div>
+            <h2 id="card-6-title" class="card-title text-black font-sanss text-xl font-semibold">Sports cates</h2>
+            <p class="text-gray-400 font-sanss text-xl font-normal"><span id="card6Price">159.00</span> TK</p>
+          </div>
+        </div>
+        <!-- card 6 Ends -->
+
+      </section>
+      <!-- Sportswear section Ends -->
+      <!-- ************************************************************** -->
+      <!-- Furniture section Start -->
+
+      <h1 class="text-black font-sanss text-4xl font-semibold mb-8 mt-14 text-center lg:text-left">Furniture</h1>
+      <!-- cart section start -->
+      <section class="grid grid-cols-1 md:grid-cols-3  lg:grid-cols-3 gap-6 lg:mb-20">
+        <!-- card 7 start -->
+        <div id="card-7" class="card w-80 bg-white shadow-xl md:w-60 lg:w-80">
+          <figure class="bg-gray-200 rounded-lg mx-auto w-72 h-52 px-10 pt-10 md:w-56 lg:w-72">
+            <img src="images/prod7.png" alt="prod7" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <div class="rating ">
+              <input type="radio " name="rating-7" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-7" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-7" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-7" class="mask mask-star bg-[#FFC107]" checked />
+              <input type="radio" name="rating-7" class="mask mask-star bg-[#FFC107]" />
+            </div>
+            <h2 id="card-7-title" class="card-title text-black font-sanss text-xl font-semibold">Single Relax Chair</h2>
+            <p class="text-gray-400 font-sanss text-xl font-normal"><span id="card7Price">185.00</span> TK</p>
+          </div>
+        </div>
+        <!-- card 7 Ends -->
+
+        <!-- card 8 start -->
+        <div id="card-8" class="card w-80 bg-white shadow-xl md:w-60 lg:w-80">
+          <figure class="bg-gray-200 rounded-lg mx-auto w-72 h-52 px-10 pt-10 md:w-56 lg:w-72">
+            <img src="images/prod8.png" alt="prod8" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <div class="rating ">
+              <input type="radio " name="rating-8" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-8" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-8" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-8" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-8" class="mask mask-star bg-[#FFC107]" checked />
+            </div>
+            <h2 id="card-8-title" class="card-title text-black font-sanss text-xl font-semibold">Children play</h2>
+            <p class="text-gray-400 font-sanss text-xl font-normal"><span id="card8Price">299.00</span> TK</p>
+          </div>
+        </div>
+        <!-- card 8 Ends -->
+
+
+        <!-- card 9 start -->
+        <div id="card-9" class="card w-80 bg-white shadow-xl md:w-60 lg:w-80">
+          <figure class="bg-gray-200 rounded-lg mx-auto w-72 h-52 px-10 pt-10 md:w-56 lg:w-72">
+            <img src="images/prod9.png" alt="prod9" class="rounded-xl" />
+          </figure>
+          <div class="card-body items-center text-center">
+            <div class="rating ">
+              <input type="radio " name="rating-9" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-9" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-9" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-9" class="mask mask-star bg-[#FFC107]" />
+              <input type="radio" name="rating-9" class="mask mask-star bg-[#FFC107]" checked />
+            </div>
+            <h2 id="card-9-title" class="card-title text-black font-sanss text-xl font-semibold">Flexible Sofa</h2>
+            <p class="text-gray-400 font-sanss text-xl font-normal"><span id="card9Price">339.00</span> TK</p>
+          </div>
+        </div>
+        <!-- card 9 Ends -->
+
+      </section>
+      <!-- Furniture section Start -->
+    </section>
+    <!-- main section left side ends -->
+    <!-- **************************************************** -->
+
+
+
+
+
+
+    <!-- main section Right side start -->
+    <section class="mb-10 ">
+      <section class="bg-gray-100  rounded-lg shadow-xl w-80 mt-16 mx-auto">
+        <p class=" text-black font-sanss  text-2xl font-medium pt-6 pl-6 pb-6">Have coupon?</p>
+        <div class="flex pl-6 pb-6">
+          <input id="inputField" type="text" placeholder="Coupon code"
+            class="bg-white text-black text-lg w-44 h-10 pl-5 mt-1 ">
+          <button id="btn-apply"
+            class="btn bg-[#E527B2] text-white rounded-r-lg  text-center text-xl font-semibold h-12 w-24 "
+            disabled>Apply</button>
+          <dialog id="my_modal_2" class="modal ">
+            <form method="dialog" class="modal-box bg-gray-300">
+              <img src="images/alert.png" alt="Alert Image">
+              <h3 class="text-red-500 font-sanss text-center font-bold text-2xl pt-6">Coupon Incorrect. Try Again!!</h3>
+              <p class="text-red-500 font-sanss text-center font-normal py-4">Press ESC key or click outside to close
+              </p>
+            </form>
+            <form method="dialog" class="modal-backdrop">
+              <button>close</button>
+            </form>
+          </dialog>
+        </div>
+      </section>
+      <section class="bg-gray-100 text-black text-2xl font-medium font-sanss shadow-xl  mt-6 rounded-lg  w-80 mx-auto">
+        <ol id="title-list" class="list-decimal list-inside pt-6 pl-6">
+          <!-- Order List Here by js -->
+        </ol>
+        <hr class="h-1 mx-6 my-4   bg-black">
+        <div class="pl-6">
+          <h1>Total Price: <span id="totalPrice">00.00</span>TK</h1>
+          <h1>Discount : <span id="disPrice">00.00</span>TK</h1>
+          <h1>Total: <span id="finalPrice">00.00</span> TK</h1>
+        </div>
+        <hr class="h-1 mx-6 my-4   bg-black">
+
+        <!-- Open the modal using ID.showModal() method -->
+        <div class="bg-white">
+          <button id="btnPurchase"
+            class="btn bg-[#E527B2] text-white font-sanss text-center text-lg font-semibold rounded-lg w-10/12 mx-6 mb-4 "
+            onclick="my_modal_1.showModal()" disabled>Make Purchase</button>
+          <dialog id="my_modal_1" class="modal  ">
+            <form method="dialog" class="modal-box bg-white">
+              <img src="images/congo.png" alt="Congratulations Image" class="mx-auto">
+              <h3 class="text-black font-sanss text-5xl font-bold text-center pt-10 ">Congratulations</h3>
+              <p class="text-gray-400 text-xl font-sanss font-normal text-center pt-4">Your Purchase the product</p>
+              <div class="modal-action">
+                <!--    if there is a button in form, it will close the modal -->
+                <button class="btn bg-[#E527B2] text-white text-xl font-sanss font-semibold mx-auto px-11 py-2"
+                  onclick="window.location.reload();">Go Home</button>
+              </div>
+            </form>
+          </dialog>
+        </div>
+
+      </section>
+    </section>
+
+    <!-- main section Right side ends -->
+  </main>
+  <!-- main Section End -->
+
+  <script src="js/calculation.js"></script>
+</body>
+
+</html>
